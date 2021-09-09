@@ -1,0 +1,155 @@
+* {
+    font-family: 'Roboto';
+    
+}
+
+html, body {
+    height: 100%;
+    background: #34495e;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Event create page*/
+
+#event-create-container {
+    line-height: 40px;
+    font-size: 17px;
+    position: absolute;
+    top: 1%;
+    color: white;
+}
+
+#event-create-container h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea  {
+    padding: 12px;
+    font-size: 15px;
+}
+
+#event-create-container textarea {
+    margin-bottom: 10px;
+}
+
+/* Events list */
+#events-container {
+    position: absolute;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+    margin: 0;
+}
+
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#events-container img {
+    max-height: 150px;
+    max-width: 225px;
+    position: relative;
+    align-self: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 14px;
+    color: #F2A340;
+    font-weight: bold;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border: solid 2px gray;
+}
+
+.card .card-local {
+    color: #212121a8;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.card #start {
+    font-size: 14px;
+    color: green;
+}
+
+.card #end {
+    font-size: 14px;
+    color: red;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #F2A340;
+}
+
+#status {
+    text-align: center;
+    border: solid 2px gray;
+    text-transform: uppercase;
+}
+
+/* Edit page */
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
